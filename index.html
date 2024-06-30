@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เลขผิดการคลัง</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>เลขผิดการคลัง</h1>
+        <form id="paymentForm">
+            <label for="transactionDate">วันที่แจ้ง ( ตัวอย่าง 00/00/2500 )</label>
+            <input type="text" id="transactionDate" placeholder="วัน/เดือน/ปี" style="color:#828282">
+            
+            <label for="accountNumber">ชื่อ-นามสกุล</label>
+            <input type="text" id="accountNumber" placeholder="ชื่อ-นามสกุล" style="color:#828282">
+            
+            <label for="CardNumber">เลขบัตรประชาชน</label>
+            <input type="text" id="CardNumber" placeholder="เลขบัตรประชาชน" style="color:#828282">
+            
+            <label for="percent">เปอร์เซอร์ ( ตัวอย่าง 00% )</label>
+            <input type="text" id="percent" placeholder="เปอร์เซอร์" style="color:#d90909">
+
+            <label for="amount">จำนวนเงินเก็บ (ตัวอย่าง XX,000.00 )</label>
+            <input type="text" id="amount" placeholder="จำนวนเงินเก็บ" style="color:#828282">
+            
+            
+            <button type="button" id="saveImage">Save image</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
